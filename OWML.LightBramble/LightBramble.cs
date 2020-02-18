@@ -73,13 +73,6 @@ namespace OWML.LightBramble
 
         private void Update()
         {
-            ModHelper.Console.WriteLine("ToggleMusic:", _isMusicEnabled);
-
-            if (_dekuSource == null)
-            {
-                return;
-            }
-
             if (_hasBrambleLoaded)
             {
                 var shouldPlay = _isMusicEnabled && Locator.GetPlayerSectorDetector().InBrambleDimension() && !Locator.GetPlayerSectorDetector().InVesselDimension() && PlayerState.AtFlightConsole() && !PlayerState.IsHullBreached();
