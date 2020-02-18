@@ -1,0 +1,25 @@
+{
+	"settings": {
+		"enableAnglers": { // toggle with explicit labels
+			"type": "toggle",
+			"value": false,
+			"yes": "Yes",
+			"no": "No",
+			"title": "Enable Anglers"
+		},
+		"enableFog": { // toggle with explicit labels
+			"type": "toggle",
+			"value": false,
+			"yes": "Yes",
+			"no": "No",
+			"title": "Enable Fog"
+		},
+		"enableMusic": { // toggle with explicit labels
+			"type": "toggle",
+			"value": true,
+			"yes": "Yes",
+			"no": "No",
+			"title": "Enable Custom Music"
+		}
+	}
+}
